@@ -1,0 +1,17 @@
+/* Extracted via tpl-tools-design-extractor (Fine-Art Wedding & Editorial Photography Proofing (Warm Sepia & Ivory)) */
+:root {
+  --font-primary: 'Jost', sans-serif;
+  --font-accent: 'Cormorant Garamond', serif;
+  --color-primary: #9A6B4C;
+  --brand-primary: var(--color-primary);
+  --color-dark: #181512;
+  --brand-dark: var(--color-dark);
+  --bg-main: #FCFBF9;
+  --bg-canvas: #F4F0EA;
+  --bg-sand: var(--bg-canvas);
+  --border-color: #E6DFD5;
+  --grid-gap-desktop: 28px 22px;
+  --grid-gap-mobile: 16px 12px;
+  --radius: 2px;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
