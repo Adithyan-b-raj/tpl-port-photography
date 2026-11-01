@@ -1,17 +1,31 @@
-/* Extracted via tpl-tools-design-extractor (Fine-Art Wedding & Editorial Photography Proofing (Warm Sepia & Ivory)) */
+/* ==========================================================================
+   BMAD Normalized Design Tokens & Movement Blueprint (theme-tokens.css)
+   Movement  : [K] Darkroom Lightbox & Client Proofing Vault
+   Archetype : Fine-Art Photography Masonry Lightbox & Contact-Sheet Proofing (Magnum / Pixieset / Leica)
+   Reference : https://pixieset.com
+   Contract  : whitelabel-and-showroom-contract.md §2 + design-movements-and-layout-blueprints.md
+   ========================================================================== */
+
 :root {
-  --font-primary: 'Jost', sans-serif;
+  --font-primary: 'Plus Jakarta Sans', sans-serif;
   --font-accent: 'Cormorant Garamond', serif;
-  --color-primary: #9A6B4C;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --color-primary: #D4A373;
   --brand-primary: var(--color-primary);
-  --color-dark: #181512;
+
+  --color-dark: #0D0C0B;
   --brand-dark: var(--color-dark);
-  --bg-main: #FCFBF9;
-  --bg-canvas: #F4F0EA;
+
+  --bg-main: #0D0C0B;
+  --bg-canvas: #161412;
   --bg-sand: var(--bg-canvas);
-  --border-color: #E6DFD5;
-  --grid-gap-desktop: 28px 22px;
-  --grid-gap-mobile: 16px 12px;
-  --radius: 2px;
+
+  --border-color: #262320;
+  --border-structural: 1px solid #262320;
+  --shadow-token: none;
+  --grid-gap-desktop: 20px;
+  --grid-gap-mobile: 12px;
+  --radius: 0px;
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
